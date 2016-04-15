@@ -29,7 +29,7 @@ None.
 
 ## To do
 - Should the n-in-a-row be across blocks rather than within a given block? This could be done by simply moving "correct_in_a_row = 0" from instructions>inst_code>'Begin Routine' to instructions>inst_code>'Begin Experiment'.
-- Add pass/fail message or boolean to the data file for ease of analysis. R script to make it even easier?
+- R script for data processing?
 - Move instructions and accuracy feedback message to stimuli.xlsx file for translation to other languages?
 - Fork a version for an equivalence task.
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Fri Apr 15 15:41:34 2016
+This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Fri Apr 15 16:06:01 2016
 If you publish work using this script please cite the relevant PsychoPy publications
   Peirce, JW (2007) PsychoPy - Psychophysics software in Python. Journal of Neuroscience Methods, 162(1-2), 8-13.
   Peirce, JW (2009) Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2:10. doi: 10.3389/neuro.11.010.2008
@@ -20,7 +20,7 @@ _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
 
 # Store info about the experiment session
-expName = 'MTS - OtM 3x3'  # from the Builder filename that created this script
+expName = u'MTS - OtM 3x3'  # from the Builder filename that created this script
 expInfo = {u'gender': u'', u'age': u'', u'participant': u''}
 dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
 if dlg.OK == False: core.quit()  # user pressed cancel
@@ -36,6 +36,8 @@ thisExp = data.ExperimentHandler(name=expName, version='',
     originPath=None,
     savePickle=True, saveWideText=True,
     dataFileName=filename)
+#save a log file for detail verbose info
+logFile = logging.LogFile(filename+'.log', level=logging.WARNING)
 logging.console.setLevel(logging.WARNING)  # this outputs to the screen, not a file
 
 endExpNow = False  # flag for 'escape' or other condition => quit the exp
@@ -43,8 +45,8 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 # Start Code - component code to be run before the window creation
 
 # Setup the Window
-win = visual.Window(size=[800, 600], fullscr=False, screen=0, allowGUI=True, allowStencil=False,
-    monitor='testMonitor', color='black', colorSpace='rgb',
+win = visual.Window(size=(1366, 768), fullscr=True, screen=0, allowGUI=False, allowStencil=False,
+    monitor=u'testMonitor', color=u'black', colorSpace='rgb',
     blendMode='avg', useFBO=True,
     )
 # store frame rate of monitor if we can measure it successfully
@@ -435,12 +437,13 @@ for thisBlocks_loop in blocks_loop:
             blocks_loop.finished = True
             trials_loop.finished = True
         
-        # save the stimuli presented to the experiment handler to be written to the data file
+        # save variables to the experiment handler to be written to the data file
         thisExp.addData('sample', sample)
         thisExp.addData('target_left', target_left)
         thisExp.addData('target_middle', target_middle)
         thisExp.addData('target_right', target_right)
         thisExp.addData('correct_in_a_row', correct_in_a_row)
+        thisExp.addData('passed_training', passed_training)
         # check responses
         if response.keys in ['', [], None]:  # No response was made
            response.keys=None

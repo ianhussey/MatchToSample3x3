@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Fri Apr 15 16:06:01 2016
+This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Sun Apr 17 22:51:30 2016
 If you publish work using this script please cite the relevant PsychoPy publications
   Peirce, JW (2007) PsychoPy - Psychophysics software in Python. Journal of Neuroscience Methods, 162(1-2), 8-13.
   Peirce, JW (2009) Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2:10. doi: 10.3389/neuro.11.010.2008
@@ -20,7 +20,7 @@ _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
 
 # Store info about the experiment session
-expName = u'MTS - OtM 3x3'  # from the Builder filename that created this script
+expName = 'MTS - OtM 3x3'  # from the Builder filename that created this script
 expInfo = {u'gender': u'', u'age': u'', u'participant': u''}
 dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
 if dlg.OK == False: core.quit()  # user pressed cancel
@@ -46,7 +46,7 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 
 # Setup the Window
 win = visual.Window(size=(1366, 768), fullscr=True, screen=0, allowGUI=False, allowStencil=False,
-    monitor=u'testMonitor', color=u'black', colorSpace='rgb',
+    monitor='testMonitor', color='black', colorSpace='rgb',
     blendMode='avg', useFBO=True,
     )
 # store frame rate of monitor if we can measure it successfully
@@ -100,6 +100,10 @@ feedback_box = visual.TextStim(win=win, ori=0, name='feedback_box',
     pos=[0, 0], height=0.1, wrapWidth=None,
     color=1.0, colorSpace='rgb', opacity=1,
     depth=0.0)
+
+# Initialize components for Routine "postblock"
+postblockClock = core.Clock()
+
 
 # Initialize components for Routine "end"
 endClock = core.Clock()
@@ -431,11 +435,8 @@ for thisBlocks_loop in blocks_loop:
             message_color = 'red'
             correct_in_a_row = 0  # reset counter
         
-        # End loops if mastery criterion was met
         if correct_in_a_row >= mastery_criterion:
             passed_training = True
-            blocks_loop.finished = True
-            trials_loop.finished = True
         
         # save variables to the experiment handler to be written to the data file
         thisExp.addData('sample', sample)
@@ -515,6 +516,56 @@ for thisBlocks_loop in blocks_loop:
         
     # completed 1 repeats of 'trials_loop'
     
+    
+    #------Prepare to start Routine "postblock"-------
+    t = 0
+    postblockClock.reset()  # clock 
+    frameN = -1
+    # update component parameters for each repeat
+    # End loops if mastery criterion was met
+    if correct_in_a_row >= mastery_criterion:
+        blocks_loop.finished = True
+        trials_loop.finished = True
+    
+    # keep track of which components have finished
+    postblockComponents = []
+    for thisComponent in postblockComponents:
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    
+    #-------Start Routine "postblock"-------
+    continueRoutine = True
+    while continueRoutine:
+        # get current time
+        t = postblockClock.getTime()
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in postblockComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # check for quit (the Esc key)
+        if endExpNow or event.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    #-------Ending Routine "postblock"-------
+    for thisComponent in postblockComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    
+    # the Routine "postblock" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset()
 # completed 12 repeats of 'blocks_loop'
 
 
@@ -597,6 +648,7 @@ for thisComponent in endComponents:
 
 # the Routine "end" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
+
 
 
 

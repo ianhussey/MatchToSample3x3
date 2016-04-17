@@ -6,7 +6,7 @@ Copyright (c) Ian Hussey 2016 (ian.hussey@ugent.be)
 Distributed under the MIT license.
 
 ## Version
-0.5 (15/4/2016)
+0.6 (17/4/2016)
 
 Written in PsychoPy 1.82.01
 
@@ -34,6 +34,9 @@ None.
 - Fork a version for an equivalence task.
 
 ## Changelog
+### 0.6
+Moved loop.finished code to a new postblock routine so that the full block is completed. 
+
 ### 0.5
 1. Extra variables saved to .csv files: pass/fail training, exemplars used on each trial, current N-in-a-row.
 2. Full screen.
@@ -51,4 +54,3 @@ Seperate files for block structure and exemplars, plus code to populate the samp
 
 ### 0.1
 Stimuli pulled from single file however, therefore this file conflates block structure with stimulus exemplars.
-

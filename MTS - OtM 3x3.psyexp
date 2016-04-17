@@ -27,7 +27,7 @@
         <Param name="Begin Experiment" val="# Dependencies&#10;import random&#10;&#10;# Declare variable for pass/fail training&#10;passed_training = False" valType="extendedCode" updates="constant"/>
         <Param name="name" val="trial_code" valType="code" updates="None"/>
         <Param name="Begin Routine" val="# Set target stimuli categories &#10;# Location of the required category is set by the required response. &#10;# Location of the two incorrect categories is randomised.&#10;if required_response == 'left':  # left from block_layout.xlsx&#10;    target_category_left = target_category_required  # latter from block_layout.xlsx&#10;    i = [target_category_wrong_1, target_category_wrong_2]&#10;    random.shuffle(i)&#10;    target_category_middle = i.pop()&#10;    target_category_right = i.pop()&#10;elif required_response == 'down':&#10;    target_category_middle = target_category_required&#10;    i = [target_category_wrong_1, target_category_wrong_2]&#10;    random.shuffle(i)&#10;    target_category_left = i.pop()&#10;    target_category_right = i.pop()&#10;elif required_response == 'right':&#10;    target_category_right = target_category_required&#10;    i = [target_category_wrong_1, target_category_wrong_2]&#10;    random.shuffle(i)&#10;    target_category_left = i.pop()&#10;    target_category_middle = i.pop()&#10;&#10;# Set specific stimuli based on categories&#10;# Translate a1 etc into actual exemplars from the stimuli.xlsx file&#10;#sample&#10;if sample_category == 'a1':&#10;    sample = a1_exemplar&#10;elif sample_category == 'a2':&#10;    sample = a2_exemplar&#10;elif sample_category == 'a3':&#10;    sample = a3_exemplar&#10;elif sample_category == 'b1':  # I include B and C classes for generalisation to an equivalence task&#10;    sample = b1_exemplar&#10;elif sample_category == 'b2':&#10;    sample = b2_exemplar&#10;elif sample_category == 'b3':&#10;    sample = b3_exemplar&#10;elif sample_category == 'c1':&#10;    sample = c1_exemplar&#10;elif sample_category == 'c2':&#10;    sample = c2_exemplar&#10;elif sample_category == 'c3':&#10;    sample = c3_exemplar&#10;&#10;#target left&#10;if target_category_left == 'b1':&#10;    target_left = b1_exemplar&#10;elif target_category_left == 'b2':&#10;    target_left = b2_exemplar&#10;elif target_category_left == 'b3':&#10;    target_left = b3_exemplar&#10;elif target_category_left == 'c1':&#10;    target_left = c1_exemplar&#10;elif target_category_left == 'c2':&#10;    target_left = c2_exemplar&#10;elif target_category_left == 'c3':&#10;    target_left = c3_exemplar&#10;&#10;#target middle&#10;if target_category_middle == 'b1':&#10;    target_middle = b1_exemplar&#10;elif target_category_middle == 'b2':&#10;    target_middle = b2_exemplar&#10;elif target_category_middle == 'b3':&#10;    target_middle = b3_exemplar&#10;elif target_category_middle == 'c1':&#10;    target_middle = c1_exemplar&#10;elif target_category_middle == 'c2':&#10;    target_middle = c2_exemplar&#10;elif target_category_middle == 'c3':&#10;    target_middle = c3_exemplar&#10;&#10;#target right&#10;if target_category_right == 'b1':&#10;    target_right = b1_exemplar&#10;elif target_category_right == 'b2':&#10;    target_right = b2_exemplar&#10;elif target_category_right == 'b3':&#10;    target_right = b3_exemplar&#10;elif target_category_right == 'c1':&#10;    target_right = c1_exemplar&#10;elif target_category_right == 'c2':&#10;    target_right = c2_exemplar&#10;elif target_category_right == 'c3':&#10;    target_right = c3_exemplar&#10;" valType="extendedCode" updates="constant"/>
-        <Param name="End Routine" val="# Adjust feedback and counters based on response&#10;if response.corr == True:&#10;    message = 'Correct'&#10;    message_color = 'lime'&#10;    correct_in_a_row += 1  # advance counter&#10;elif response.corr == False:&#10;    message = 'Wrong'&#10;    message_color = 'red'&#10;    correct_in_a_row = 0  # reset counter&#10;&#10;if correct_in_a_row &gt;= mastery_criterion:&#10;    passed_training = True&#10;&#10;# save variables to the experiment handler to be written to the data file&#10;thisExp.addData('sample', sample)&#10;thisExp.addData('target_left', target_left)&#10;thisExp.addData('target_middle', target_middle)&#10;thisExp.addData('target_right', target_right)&#10;thisExp.addData('correct_in_a_row', correct_in_a_row)&#10;thisExp.addData('passed_training', passed_training)" valType="extendedCode" updates="constant"/>
+        <Param name="End Routine" val="# Adjust feedback and counters based on response&#10;if response.corr == True:&#10;    message = 'Correct'&#10;    message_color = 'lime'&#10;    correct_in_a_row += 1  # advance counter&#10;elif response.corr == False:&#10;    message = 'Wrong'&#10;    message_color = 'red'&#10;    correct_in_a_row = 0  # reset counter&#10;&#10;# save variables to the experiment handler to be written to the data file&#10;thisExp.addData('sample', sample)&#10;thisExp.addData('target_left', target_left)&#10;thisExp.addData('target_middle', target_middle)&#10;thisExp.addData('target_right', target_right)&#10;thisExp.addData('correct_in_a_row', correct_in_a_row)&#10;" valType="extendedCode" updates="constant"/>
         <Param name="End Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="Each Frame" val="" valType="extendedCode" updates="constant"/>
       </CodeComponent>
@@ -198,8 +198,8 @@
       <CodeComponent name="postblock_code">
         <Param name="Begin Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="name" val="postblock_code" valType="code" updates="None"/>
-        <Param name="Begin Routine" val="# End loops if mastery criterion was met&#10;if correct_in_a_row &gt;= mastery_criterion:&#10;    blocks_loop.finished = True&#10;    trials_loop.finished = True&#10;" valType="extendedCode" updates="constant"/>
-        <Param name="End Routine" val="" valType="extendedCode" updates="constant"/>
+        <Param name="Begin Routine" val="&#10;&#10;&#10;" valType="extendedCode" updates="constant"/>
+        <Param name="End Routine" val="# End loops if mastery criterion was met&#10;if correct_in_a_row &gt;= mastery_criterion:&#10;    passed_training = True&#10;    blocks_loop.finished = True&#10;    trials_loop.finished = True&#10;&#10;thisExp.addData('passed_training', passed_training)" valType="extendedCode" updates="constant"/>
         <Param name="End Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="Each Frame" val="" valType="extendedCode" updates="constant"/>
       </CodeComponent>
@@ -277,7 +277,19 @@
     <Routine name="trial"/>
     <Routine name="feedback"/>
     <LoopTerminator name="trials_loop"/>
+    <LoopInitiator loopType="TrialHandler" name="postblock_loop">
+      <Param name="conditionsFile" val="" valType="str" updates="None"/>
+      <Param name="name" val="postblock_loop" valType="code" updates="None"/>
+      <Param name="isTrials" val="True" valType="bool" updates="None"/>
+      <Param name="random seed" val="" valType="code" updates="None"/>
+      <Param name="loopType" val="sequential" valType="str" updates="None"/>
+      <Param name="nReps" val="1" valType="code" updates="None"/>
+      <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
+      <Param name="conditions" val="None" valType="str" updates="None"/>
+      <Param name="Selected rows" val="" valType="code" updates="None"/>
+    </LoopInitiator>
     <Routine name="postblock"/>
+    <LoopTerminator name="postblock_loop"/>
     <LoopTerminator name="blocks_loop"/>
     <Routine name="end"/>
   </Flow>

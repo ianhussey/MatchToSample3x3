@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Sun Apr 17 23:36:43 2016
+This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Sun Apr 17 23:35:17 2016
 If you publish work using this script please cite the relevant PsychoPy publications
   Peirce, JW (2007) PsychoPy - Psychophysics software in Python. Journal of Neuroscience Methods, 162(1-2), 8-13.
   Peirce, JW (2009) Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2:10. doi: 10.3389/neuro.11.010.2008
@@ -33,7 +33,7 @@ filename = _thisDir + os.sep + 'data/%s_%s_%s' %(expInfo['participant'], expName
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath=None,
+    originPath=u'/Users/Ian/git/MatchToSample/MTS - OtM 3x3.psyexp',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 #save a log file for detail verbose info
@@ -120,7 +120,7 @@ routineTimer = core.CountdownTimer()  # to track time remaining of each (non-sli
 
 # set up handler to look after randomisation of conditions etc
 blocks_loop = data.TrialHandler(nReps=12, method='sequential', 
-    extraInfo=expInfo, originPath=None,
+    extraInfo=expInfo, originPath=u'/Users/Ian/git/MatchToSample/MTS - OtM 3x3.psyexp',
     trialList=data.importConditions('stimuli.xlsx'),
     seed=None, name='blocks_loop')
 thisExp.addLoop(blocks_loop)  # add the loop to the experiment
@@ -215,7 +215,7 @@ for thisBlocks_loop in blocks_loop:
     
     # set up handler to look after randomisation of conditions etc
     trials_loop = data.TrialHandler(nReps=1, method='random', 
-        extraInfo=expInfo, originPath=None,
+        extraInfo=expInfo, originPath=u'/Users/Ian/git/MatchToSample/MTS - OtM 3x3.psyexp',
         trialList=data.importConditions('block_layout.xlsx'),
         seed=None, name='trials_loop')
     thisExp.addLoop(trials_loop)  # add the loop to the experiment
@@ -516,7 +516,7 @@ for thisBlocks_loop in blocks_loop:
     
     # set up handler to look after randomisation of conditions etc
     postblock_loop = data.TrialHandler(nReps=1, method='sequential', 
-        extraInfo=expInfo, originPath=None,
+        extraInfo=expInfo, originPath=u'/Users/Ian/git/MatchToSample/MTS - OtM 3x3.psyexp',
         trialList=[None],
         seed=None, name='postblock_loop')
     thisExp.addLoop(postblock_loop)  # add the loop to the experiment

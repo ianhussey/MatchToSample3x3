@@ -13,6 +13,7 @@ rm(list=ls())
 
 ########################################################################
 # Dependencies
+library(plyr)
 library(dplyr)
 library(data.table)
 

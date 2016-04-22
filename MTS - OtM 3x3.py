@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Fri Apr 22 14:08:55 2016
+This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Fri Apr 22 16:31:19 2016
 If you publish work using this script please cite the relevant PsychoPy publications
   Peirce, JW (2007) PsychoPy - Psychophysics software in Python. Journal of Neuroscience Methods, 162(1-2), 8-13.
   Peirce, JW (2009) Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2:10. doi: 10.3389/neuro.11.010.2008
@@ -674,23 +674,23 @@ for thisTask in task:
             
             
             # set up handler to look after randomisation of conditions etc
-            post_trainng_loop = data.TrialHandler(nReps=1, method='sequential', 
+            post_training_loop = data.TrialHandler(nReps=1, method='sequential', 
                 extraInfo=expInfo, originPath=None,
                 trialList=[None],
-                seed=None, name='post_trainng_loop')
-            thisExp.addLoop(post_trainng_loop)  # add the loop to the experiment
-            thisPost_trainng_loop = post_trainng_loop.trialList[0]  # so we can initialise stimuli with some values
-            # abbreviate parameter names if possible (e.g. rgb=thisPost_trainng_loop.rgb)
-            if thisPost_trainng_loop != None:
-                for paramName in thisPost_trainng_loop.keys():
-                    exec(paramName + '= thisPost_trainng_loop.' + paramName)
+                seed=None, name='post_training_loop')
+            thisExp.addLoop(post_training_loop)  # add the loop to the experiment
+            thisPost_training_loop = post_training_loop.trialList[0]  # so we can initialise stimuli with some values
+            # abbreviate parameter names if possible (e.g. rgb=thisPost_training_loop.rgb)
+            if thisPost_training_loop != None:
+                for paramName in thisPost_training_loop.keys():
+                    exec(paramName + '= thisPost_training_loop.' + paramName)
             
-            for thisPost_trainng_loop in post_trainng_loop:
-                currentLoop = post_trainng_loop
-                # abbreviate parameter names if possible (e.g. rgb = thisPost_trainng_loop.rgb)
-                if thisPost_trainng_loop != None:
-                    for paramName in thisPost_trainng_loop.keys():
-                        exec(paramName + '= thisPost_trainng_loop.' + paramName)
+            for thisPost_training_loop in post_training_loop:
+                currentLoop = post_training_loop
+                # abbreviate parameter names if possible (e.g. rgb = thisPost_training_loop.rgb)
+                if thisPost_training_loop != None:
+                    for paramName in thisPost_training_loop.keys():
+                        exec(paramName + '= thisPost_training_loop.' + paramName)
                 
                 #------Prepare to start Routine "post_training"-------
                 t = 0
@@ -753,7 +753,7 @@ for thisTask in task:
                 routineTimer.reset()
                 thisExp.nextEntry()
                 
-            # completed 1 repeats of 'post_trainng_loop'
+            # completed 1 repeats of 'post_training_loop'
             
         # completed max_training repeats of 'training'
         

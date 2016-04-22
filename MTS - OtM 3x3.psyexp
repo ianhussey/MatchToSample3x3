@@ -386,9 +386,9 @@
     <Routine name="trial"/>
     <Routine name="feedback"/>
     <LoopTerminator name="training_trials"/>
-    <LoopInitiator loopType="TrialHandler" name="post_trainng_loop">
+    <LoopInitiator loopType="TrialHandler" name="post_training_loop">
       <Param name="conditionsFile" val="" valType="str" updates="None"/>
-      <Param name="name" val="post_trainng_loop" valType="code" updates="None"/>
+      <Param name="name" val="post_training_loop" valType="code" updates="None"/>
       <Param name="isTrials" val="True" valType="bool" updates="None"/>
       <Param name="random seed" val="" valType="code" updates="None"/>
       <Param name="loopType" val="sequential" valType="str" updates="None"/>
@@ -398,7 +398,7 @@
       <Param name="Selected rows" val="" valType="str" updates="None"/>
     </LoopInitiator>
     <Routine name="post_training"/>
-    <LoopTerminator name="post_trainng_loop"/>
+    <LoopTerminator name="post_training_loop"/>
     <LoopTerminator name="training"/>
     <LoopInitiator loopType="TrialHandler" name="testing">
       <Param name="conditionsFile" val="" valType="str" updates="None"/>

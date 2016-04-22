@@ -6,7 +6,7 @@ Copyright (c) Ian Hussey 2016 (ian.hussey@ugent.be)
 Distributed under the MIT license.
 
 ## Version
-0.7 (19/4/2016)
+0.7 (22/4/2016)
 
 Written in PsychoPy 1.82.01
 
@@ -22,6 +22,7 @@ Trains three three-member classes: A1-B1-C1, A2-B2-C2, and A3-B3-C3 via one-to-m
 -  If the testing crition of x number of correct trials within a block is met, the task ends with a "passed" message. Default is 8 (out of 9: 89%).
 - Otherwise, participants repeat both the training and testing blocks. Participants must again meet the training criterion to move on to the testing blocks. This is done a max number of times set by max_training_and_testing.
 - By setting the training crition to 0 you can alter the structure of the task to that participants recieve loops of training and testing rather than requiring them to meet a training accuracy crition before being exposed to the testing blocks.  
+- Includes working R script in analysis folder which will summarize MTS performances for you (e.g., pass/fail training/testing phases, and how many cycles of each were needed).
 
 #### Example setup 1
 	max_training == 1
@@ -56,10 +57,9 @@ Using these settings, participants will complete blocks of 54 training trials (A
 - Press return to end the task at the end of task screen.
 
 ## Known issues
-- R script is depreciated.
+None.
 
 ## To do
-- R script needs updating to extract both training and testing data.
 - Reasonable default parameters must be chosen, e.g., with reference to a specific previous experiment.
 
 ## Changelog
@@ -68,6 +68,7 @@ Many changes.
 - Intigrated training and testing into one task. 
 - All strings in stimuli file, as well as several task parameters.
 - Several training and testing methods available based on the pairs of mastery criteria, block length multipliers, and max reps variables.
+- Working R script
 
 ### 0.6
 Moved loop.finished code to a new postblock routine so that the full block is completed. 

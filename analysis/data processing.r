@@ -78,5 +78,29 @@ block_summaries_df <-
            (n_training == max(n_training, na.rm = TRUE) |  # and either the last row of training
               n_testing == max(n_testing, na.rm = TRUE)))  # or the last row of testing
 
+# condense the two rows created for each participant into one
+condense_summaries_df <-
+  group_by(block_summaries_df, participant) %>%
+  summarize(n_training_and_testing = max(n_training_and_testing, na.rm = TRUE),
+            n_training = max(n_training, na.rm = TRUE),
+            n_testing = max(n_testing, na.rm = TRUE), 
+            passed_training = as.logical(max(passed_training, na.rm = TRUE)),
+            passed_testing = as.logical(max(passed_testing, na.rm = TRUE)))
+
+# extract demographics info from a previous df
+demographics_df <- 
+  select(block_summaries_df, 
+         participant, 
+         gender,
+         age,
+         date) %>%
+  distinct(participant)
+
+# join the summaries and the demographics for output
+output_df <- 
+  join_all(list(demographics_df, condense_summaries_df),
+           by = "participant",
+           type = "full")
+
 # Write to file
-write.csv(block_summaries_df, file = "~/git/MatchToSample/analysis/summarized_MTS_data.csv", row.names=FALSE)
+write.csv(output_df, file = "~/git/MatchToSample/analysis/summarized_MTS_data.csv", row.names=FALSE)

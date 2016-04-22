@@ -10,10 +10,10 @@ Distributed under the MIT license.
 
 Written in PsychoPy 1.82.01
 
-*NB This implimention is still in development and has not been used in a study yet.* 
+*NB This implementation is still in development and has not been used in a study yet.* 
 
 ## Task structure
-Trains three three-member classes: A1-B1-C1, A2-B2-C2, and A3-B3-C3 via one-to-many match to sample training; then assesses for emergent B-C (equivalence) relations.
+Trains three three-member classes: A1-B1-C1, A2-B2-C2, and A3-B3-C3 via one-to-many match to sample training; then assesses for emergent C-B (equivalence) relations.
 
 - Training block contains 18 trials contain each contain a fully counterbalanced set of A1, A2 and A3 sample stimuli with the required target stimulus counterbalanced across all three stimuli locations. The location of the incorrect comparison stimuli is randomised for each trial.
 - If the training crition of X number of correct trials within a block is met, participants proceed to the testing block. Default is 16 (out of 18: 89%).

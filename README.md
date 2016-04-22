@@ -23,6 +23,30 @@ Trains three three-member classes: A1-B1-C1, A2-B2-C2, and A3-B3-C3 via one-to-m
 - Otherwise, participants repeat both the training and testing blocks. Participants must again meet the training criterion to move on to the testing blocks. This is done a max number of times set by max_training_and_testing.
 - By setting the training crition to 0 you can alter the structure of the task to that participants recieve loops of training and testing rather than requiring them to meet a training accuracy crition before being exposed to the testing blocks.  
 
+#### Example setup 1
+	max_training == 1
+	max_testing == 1
+	max_training_and_testing == 10
+	training_block_multiplier == 3
+	testing_block_multiplier == 1
+Using these settings, participants will complete 1 block of 56 training trials (A-B and A-C), and regardless of their performance on this block it will be followed by 1 block of 9 testing trials (C-B). If they meet the testing criterion the task finishes, otherwise they will repeat this pair of training and testing blocks up to 9 more times.
+
+#### Example setup 2
+	max_training == 20
+	max_testing == 1
+	max_training_and_testing == 2
+	training_block_multiplier == 1
+	testing_block_multiplier == 1
+Using these settings, participants will complete blocks of 18 training trials (A-B and A-C) until they meet the training mastery criterion. They are provided with up to 20 opportunities to do so (i.e., 360 trials max). If they meet the criterion, they will immediately complete 1 block of 9 testing trials (C-B). If they meet the testing criterion the task finishes, otherwise they will go back to the training phase. However, they will only be provided with a max of two opportunities to pass the testing block.
+
+#### Example setup 3
+	max_training == 10
+	max_testing == 10
+	max_training_and_testing == 1
+	training_block_multiplier == 3
+	testing_block_multiplier == 1
+Using these settings, participants will complete blocks of 54 training trials (A-B and A-C) until they meet the training mastery criterion. They are provided with up to 10 opportunities to do so (i.e., 540 max trials). If they meet the criterion, they will immediately complete blocks of 9 testing trials (C-B). Again, they will be provided with up to 10 opportunities to do so, but will not be recycled back to the training phase after each failure. In this setup, participants must meet training and testing mastery criteria seperately to pass the task, but never recieve additional training once they have moved on to the testing phase.
+
 ## Notes
 - The last row of a participant's .csv data file specifies whether they passed or failed the task under the "passed_training" column.
 - For demonstration and testing purposes the task present the stimuli as "A1", "C2" etc. To use word stimuli simply alter the stimuli.xlsx file (or replace it with the "stimuli ALT - ARBITRARY.xlsx" file which contains nonsense words.
@@ -32,10 +56,10 @@ Trains three three-member classes: A1-B1-C1, A2-B2-C2, and A3-B3-C3 via one-to-m
 - Press return to end the task at the end of task screen.
 
 ## Known issues
-None.
+- R script is depreciated.
 
 ## To do
-- R script for data processing needs updating
+- R script needs updating to extract both training and testing data.
 - Reasonable default parameters must be chosen, e.g., with reference to a specific previous experiment.
 
 ## Changelog

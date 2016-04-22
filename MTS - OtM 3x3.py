@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Tue Apr 19 17:43:37 2016
+This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Fri Apr 22 14:08:55 2016
 If you publish work using this script please cite the relevant PsychoPy publications
   Peirce, JW (2007) PsychoPy - Psychophysics software in Python. Journal of Neuroscience Methods, 162(1-2), 8-13.
   Peirce, JW (2009) Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2:10. doi: 10.3389/neuro.11.010.2008
@@ -81,7 +81,7 @@ import random
 passed_training = False
 passed_testing = False
 total_correct = 0
-testing_nReps = 0 # by default, don't do the testing block. This gets set to 1 if training is passed.
+max_testing_var = 0 # by default, don't do the testing block. This gets set to 1 if training is passed.
 sample_box = visual.TextStim(win=win, ori=0, name='sample_box',
     text='default text',    font='Arial',
     pos=[0, 0.3], height=0.1, wrapWidth=None,
@@ -132,7 +132,7 @@ import random
 passed_training = False
 passed_testing = False
 total_correct = 0
-testing_nReps = 0 # by default, don't do the testing block. This gets set to 1 if training is passed.
+max_testing_var = 0 # by default, don't do the testing block. This gets set to 1 if training is passed.
 sample_box = visual.TextStim(win=win, ori=0, name='sample_box',
     text='default text',    font='Arial',
     pos=[0, 0.3], height=0.1, wrapWidth=None,
@@ -174,7 +174,7 @@ routineTimer = core.CountdownTimer()  # to track time remaining of each (non-sli
 # set up handler to look after randomisation of conditions etc
 task = data.TrialHandler(nReps=1, method='sequential', 
     extraInfo=expInfo, originPath=None,
-    trialList=data.importConditions(u'stimuli, instructions and parameters.xlsx'),
+    trialList=data.importConditions('stimuli, instructions and parameters.xlsx'),
     seed=None, name='task')
 thisExp.addLoop(task)  # add the loop to the experiment
 thisTask = task.trialList[0]  # so we can initialise stimuli with some values
@@ -743,7 +743,7 @@ for thisTask in task:
                 if total_correct >= training_criterion:
                     passed_training = True
                     training.finished = True
-                    testing_nReps = 1
+                    max_testing_var = max_testing
                 
                 thisExp.addData('passed_training', passed_training)
                 
@@ -759,7 +759,7 @@ for thisTask in task:
         
         
         # set up handler to look after randomisation of conditions etc
-        testing = data.TrialHandler(nReps=testing_nReps, method='sequential', 
+        testing = data.TrialHandler(nReps=max_testing_var, method='sequential', 
             extraInfo=expInfo, originPath=None,
             trialList=[None],
             seed=None, name='testing')
@@ -1174,7 +1174,7 @@ for thisTask in task:
                 
             # completed 1 repeats of 'post_testing_loop'
             
-        # completed testing_nReps repeats of 'testing'
+        # completed max_testing_var repeats of 'testing'
         
     # completed max_training_and_testing repeats of 'training_and_testing'
     

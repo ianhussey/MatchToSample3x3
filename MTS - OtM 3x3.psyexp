@@ -288,16 +288,6 @@
         <Param name="Each Frame" val="" valType="extendedCode" updates="constant"/>
       </CodeComponent>
     </Routine>
-    <Routine name="postblock">
-      <CodeComponent name="postblock_code">
-        <Param name="Begin Experiment" val="" valType="extendedCode" updates="constant"/>
-        <Param name="name" val="postblock_code" valType="code" updates="None"/>
-        <Param name="Begin Routine" val="&#10;&#10;&#10;" valType="extendedCode" updates="constant"/>
-        <Param name="End Routine" val="# End loops if mastery criterion was met&#10;thisExp.addData('total_correct', total_correct)&#10;&#10;if total_correct &gt;= mastery_criterion:&#10;    passed_equivalence = True&#10;    blocks_loop.finished = True&#10;else:&#10;    total_correct = 0  #reset counter&#10;&#10;thisExp.addData('passed_equivalence', passed_equivalence)" valType="extendedCode" updates="constant"/>
-        <Param name="End Experiment" val="" valType="extendedCode" updates="constant"/>
-        <Param name="Each Frame" val="" valType="extendedCode" updates="constant"/>
-      </CodeComponent>
-    </Routine>
     <Routine name="instructions">
       <TextComponent name="inst_box">
         <Param name="opacity" val="1" valType="code" updates="constant"/>

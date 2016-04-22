@@ -1,3 +1,0 @@
-"participant","gender","age","date","n_training_and_testing","n_training","n_testing","passed_training","passed_testing"
-"test",NA,NA,"2016_Apr_22_1559",2,2,NA,TRUE,NA
-"test",NA,NA,"2016_Apr_22_1559",2,NA,1,NA,TRUE

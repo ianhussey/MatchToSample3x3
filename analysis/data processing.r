@@ -1,18 +1,14 @@
 ########################################################################
-# Create summary stats from data produced by the MTS 3x3,
-# programmed in PsychoPy 1.82
-# Ian.Hussey@ugent.be
-# Version 1.1
+# Create summary stats from data produced by the 
+# One-to-Many Match to Sample task
+# Author: Ian.Hussey@ugent.be
 ########################################################################
 # Notes:
-# Working for MTS version 0.7. 
-# Produces pass/fail data and number of blocks required.
+# Produces pass/fail summary data, including number of blocks required 
+# and total number of completed trials for both training and testing.
 
-# To do:
-# Currently outputs two rows per participant, one for their training and 
-# one for testing. Reshaping would make this easier to analyse further,
-# but there must be an easier way to do this than than multiple 
-# gather() and spread()s?
+# Known issues:
+# None.
 
 ########################################################################
 # Clean the workspace
@@ -96,11 +92,35 @@ demographics_df <-
          date) %>%
   distinct(participant)
 
+# count trials per block
+# this is used below to calculate the total trials they were exposed to.
+training_block_length_df <-
+  filter(cleaning_df, 
+         n_training_and_testing == 1 & n_training == 1 & !is.na(accuracy)) %>%  # !is.na(accuracy) is neede because the summary trial row is also included otherwise 
+  group_by(participant) %>%
+  summarize(n_trials_per_training_block = sum(n_training))  # can't get count() or tally() to work here, no idea why.
+
+testing_block_length_df <-
+  filter(cleaning_df, 
+         n_training_and_testing == 1 & n_testing == 1 & !is.na(accuracy)) %>%  # !is.na(accuracy) is neede because the summary trial row is also included otherwise 
+  group_by(participant) %>%
+  summarize(n_trials_per_testing_block = sum(n_testing))  # can't get count() or tally() to work here, no idea why.
+
 # join the summaries and the demographics for output
-output_df <- 
-  join_all(list(demographics_df, condense_summaries_df),
+joined_df <- 
+  join_all(list(demographics_df, 
+                condense_summaries_df, 
+                training_block_length_df,
+                testing_block_length_df),
            by = "participant",
            type = "full")
 
+# calculate total trials each participant was exposed to
+output_df <- 
+  group_by(joined_df, participant) %>%
+  mutate(total_training_trials = n_training_and_testing * n_training * n_trials_per_training_block,
+         total_testing_trials = n_training_and_testing * n_testing * n_trials_per_testing_block)
+
 # Write to file
-write.csv(output_df, file = "~/git/MatchToSample/analysis/summarized_MTS_data.csv", row.names=FALSE)
+write.csv(output_df, file = "~/git/MatchToSample/analysis/MTS_summary_data.csv", row.names=FALSE)
+

@@ -236,7 +236,7 @@
         <Param name="Begin Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="name" val="post_testing_code" valType="code" updates="None"/>
         <Param name="Begin Routine" val="&#10;&#10;&#10;" valType="extendedCode" updates="constant"/>
-        <Param name="End Routine" val="# End loops if mastery criterion was met&#10;thisExp.addData('total_correct', total_correct)&#10;&#10;if total_correct &gt;= testing_criterion:&#10;    passed_testing = True&#10;    training_and_testing.finished = True&#10;&#10;thisExp.addData('passed_testing', passed_testing)&#10;&#10;total_correct = 0  #reset counter for more training" valType="extendedCode" updates="constant"/>
+        <Param name="End Routine" val="# End loops if mastery criterion was met&#10;thisExp.addData('total_correct', total_correct)&#10;&#10;if total_correct &gt;= testing_criterion:&#10;    passed_testing = True&#10;    testing.finished = True&#10;    training_and_testing.finished = True&#10;&#10;thisExp.addData('passed_testing', passed_testing)&#10;&#10;total_correct = 0  #reset counter for more training" valType="extendedCode" updates="constant"/>
         <Param name="End Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="Each Frame" val="" valType="extendedCode" updates="constant"/>
       </CodeComponent>

@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Tue Apr 26 15:23:12 2016
+This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Wed Apr 27 14:59:42 2016
 If you publish work using this script please cite the relevant PsychoPy publications
   Peirce, JW (2007) PsychoPy - Psychophysics software in Python. Journal of Neuroscience Methods, 162(1-2), 8-13.
   Peirce, JW (2009) Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2:10. doi: 10.3389/neuro.11.010.2008
@@ -376,7 +376,7 @@ for thisTask in task:
             routineTimer.reset()
             
             # set up handler to look after randomisation of conditions etc
-            training_trials = data.TrialHandler(nReps=training_block_length_multiplier, method='random', 
+            training_trials = data.TrialHandler(nReps=training_block_length_multiplier, method='fullRandom', 
                 extraInfo=expInfo, originPath=None,
                 trialList=data.importConditions('training_block.xlsx'),
                 seed=None, name='training_trials')
@@ -851,7 +851,7 @@ for thisTask in task:
             routineTimer.reset()
             
             # set up handler to look after randomisation of conditions etc
-            testing_trials = data.TrialHandler(nReps=testing_block_length_multiplier, method='sequential', 
+            testing_trials = data.TrialHandler(nReps=testing_block_length_multiplier, method='fullRandom', 
                 extraInfo=expInfo, originPath=None,
                 trialList=data.importConditions('testing_block.xlsx'),
                 seed=None, name='testing_trials')

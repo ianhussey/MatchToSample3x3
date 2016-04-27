@@ -6,7 +6,7 @@ Copyright (c) Ian Hussey 2016 (ian.hussey@ugent.be)
 Distributed under the MIT license.
 
 ## Version
-0.7.2 (26/4/2016)
+0.7.3 (26/4/2016)
 
 Written in PsychoPy 1.82.01
 
@@ -74,6 +74,9 @@ None.
 - Reasonable default parameters must be chosen, e.g., with reference to a specific previous experiment.
 
 ## Changelog
+### 0.7.3
+Trial sequence for testing was incorrectly set to sequential. Changed both training and testing to fullRandom.
+
 ### 0.7.2
 Updated readme and included 'explanations of task parameters' folder to illustrate different parameters of the task.
 

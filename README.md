@@ -8,14 +8,14 @@ This program is free software: you can redistribute it and/or modify it under th
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 ## Version
-0.7.3 (26/4/2016)
+0.7.4 (5/5/2016)
 
 Written in PsychoPy 1.82.01
 
 *NB This implementation is still in development and has not been used in a study yet.* 
 
 ## Notes
-- Trains three three-member classes: A1-B1-C1, A2-B2-C2, and A3-B3-C3 via one-to-many match to sample training; then assesses for emergent C-B (equivalence) relations.
+- Trains three three-member classes: A1-B1-C1, A2-B2-C2, and A3-B3-C3 via one-to-many match to sample training; then assesses for emergent C-B and B-C (equivalence) relations.
 - Press return to end the task at the "end of task" screen.
 - Includes R script in the "Analysis" folder which produces summaries of MTS performances, including demographic variables, pass/fail variables for both training and testing phases, and how many cycles of each were needed.
 - All strings wihtin the task are set by the excel files. Easy to translate to other languages given there is full unicode support for non-english characters.
@@ -29,7 +29,7 @@ Written in PsychoPy 1.82.01
 - Training block contain X multiples of 18 trials, which each include a fully counterbalanced set of A1, A2 and A3 sample stimuli with the required target stimulus counterbalanced across all three stimuli locations. The location of the incorrect comparison stimuli is randomised for each trial.
 - If the training crition of Y number of correct trials within a block is met, participants proceed to the testing block. 
 - Otherwise, participants repeat the training block. This is done a max number of Z times.
-- Testing block contains J multiples of 9 C-B (i.e. equivalence) trials. Symmetry relations could be added simply by modiying the task structure file.
+- Testing block contains J multiples of 18 C-B and B-C (i.e. equivalence) trials. Symmetry relations could be added simply by modiying the task structure file.
 -  If the testing crition of K number of correct trials within a block is met, the task ends with a "passed" message. 
 -  Otherwise, participants repeat the testing block. This is done a max number of L times.
 - If the max training or testing block repeats (Z or L) is reached, immediately after that block is finished the participant is recycled back to the start of the training blocks a maxiumum of Q number of times. 
@@ -41,33 +41,33 @@ In order to illustrate the flexibility of the current implimentation, three exam
 
 ### Example setup 1
 	training_criterion == 0
-	testing_criterion == 8
+	testing_criterion == 17
 	max_training == 1
 	max_testing == 1
 	max_training_and_testing == 10
 	training_block_multiplier == 3
 	testing_block_multiplier == 1
-Participants will complete 1 block of 52 (i.e., 18\*3) training trials (A-B and A-C), and regardless of their performance on this block (because criterion = 0 and max = 1) it will be followed by 1 block of 9 (9\*1) testing trials (C-B). If they meet the testing criterion (>=8 correct) the task finishes, otherwise they will repeat this pair of training and testing blocks up to 9 additional times.
+Participants will complete 1 block of 52 (i.e., 18\*3) training trials (A-B and A-C), and regardless of their performance on this block (because criterion = 0 and max = 1) it will be followed by 1 block of 18 (18\*1) testing trials (C-B and B-C). If they meet the testing criterion (>=17 correct) the task finishes, otherwise they will repeat this pair of training and testing blocks up to 9 additional times.
 
 ### Example setup 2
 	training_criterion == 17
-	testing_criterion == 8
+	testing_criterion == 17
 	max_training == 18
 	max_testing == 1
 	max_training_and_testing == 2
 	training_block_multiplier == 1
 	testing_block_multiplier == 1
-Participants will complete blocks of 18 (18\*1) training trials (A-B and A-C) until they meet the training mastery criterion (>=17 correct trials). They are provided with up to 18 opportunities to do so (i.e., up to 324 trials). If they meet the criterion, they will immediately complete a block of 9 (9\*1) testing trials (C-B). If they meet the testing criterion (>=8) the task finishes, otherwise they will go back to the training phase. However, they will only be provided with a max of two total opportunities to pass the testing block.
+Participants will complete blocks of 18 (18\*1) training trials (A-B and A-C) until they meet the training mastery criterion (>=17 correct trials). They are provided with up to 18 opportunities to do so (i.e., up to 324 trials). If they meet the criterion, they will immediately complete a block of 18 (18\*1)  testing trials (C-B and B-C). If they meet the testing criterion (>=17) the task finishes, otherwise they will go back to the training phase. However, they will only be provided with a max of two total opportunities to pass the testing block.
 
 ### Example setup 3
 	training_criterion == 47
-	testing_criterion == 8
+	testing_criterion == 17
 	max_training == 10
 	max_testing == 10
 	max_training_and_testing == 1
 	training_block_multiplier == 3
 	testing_block_multiplier == 1
-Using these settings, participants will complete blocks of 52 (18\*3) training trials (A-B and A-C) until they meet the training mastery criterion (>=47). They are provided with up to 10 opportunities to do so (i.e., 520 max trials). If they meet the training criterion, they will immediately complete blocks of 9 (9\*1) testing trials (C-B). Again, they will be provided with up to 10 opportunities to meet the criterion (>=8 correct), but will not be recycled back to the training phase after each failure or indeed at all. In this setup, participants must meet training and testing mastery criteria seperately to pass the task, but never recieve additional training once they have moved on to the testing phase.
+Using these settings, participants will complete blocks of 52 (18\*3) training trials (A-B and A-C) until they meet the training mastery criterion (>=47). They are provided with up to 10 opportunities to do so (i.e., 520 max trials). If they meet the training criterion, they will immediately complete blocks of 18 (18\*1)  testing trials (C-B and B-C). Again, they will be provided with up to 10 opportunities to meet the criterion (>=17 correct), but will not be recycled back to the training phase after each failure or indeed at all. In this setup, participants must meet training and testing mastery criteria seperately to pass the task, but never recieve additional training once they have moved on to the testing phase.
 
 ## Known issues
 None.
@@ -76,6 +76,9 @@ None.
 - Reasonable default parameters must be chosen, e.g., with reference to a specific previous experiment.
 
 ## Changelog
+### 0.7.4
+Testing by default includes B-C trials now as well as C-B trials, as bidirectionality here is likely to be important. 
+
 ### 0.7.3
 Trial sequence for testing was incorrectly set to sequential. Changed both training and testing to fullRandom.
 

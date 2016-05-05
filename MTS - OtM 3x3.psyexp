@@ -5,8 +5,8 @@
     <Param name="Monitor" val="testMonitor" valType="str" updates="None"/>
     <Param name="Enable Escape" val="True" valType="bool" updates="None"/>
     <Param name="color" val="black" valType="str" updates="None"/>
-    <Param name="Window size (pixels)" val="[800, 600]" valType="code" updates="None"/>
-    <Param name="Full-screen window" val="False" valType="bool" updates="None"/>
+    <Param name="Window size (pixels)" val="[1366, 768]" valType="code" updates="None"/>
+    <Param name="Full-screen window" val="True" valType="bool" updates="None"/>
     <Param name="colorSpace" val="rgb" valType="str" updates="None"/>
     <Param name="Experiment info" val="{u'gender': u'', u'age': u'', u'participant': u''}" valType="code" updates="None"/>
     <Param name="Save csv file" val="False" valType="bool" updates="None"/>
@@ -236,7 +236,7 @@
         <Param name="Begin Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="name" val="post_testing_code" valType="code" updates="None"/>
         <Param name="Begin Routine" val="&#10;&#10;&#10;" valType="extendedCode" updates="constant"/>
-        <Param name="End Routine" val="# End loops if mastery criterion was met&#10;thisExp.addData('total_correct', total_correct)&#10;&#10;if total_correct &gt;= testing_criterion:&#10;    passed_testing = True&#10;    training_and_testing.finished = True&#10;&#10;thisExp.addData('passed_testing', passed_testing)&#10;&#10;total_correct = 0  #reset counter for more training" valType="extendedCode" updates="constant"/>
+        <Param name="End Routine" val="# End loops if mastery criterion was met&#10;thisExp.addData('total_correct', total_correct)&#10;&#10;if total_correct &gt;= testing_criterion:&#10;    passed_testing = True&#10;    testing.finished = True&#10;    training_and_testing.finished = True&#10;&#10;thisExp.addData('passed_testing', passed_testing)&#10;&#10;total_correct = 0  #reset counter for more training" valType="extendedCode" updates="constant"/>
         <Param name="End Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="Each Frame" val="" valType="extendedCode" updates="constant"/>
       </CodeComponent>
@@ -284,16 +284,6 @@
         <Param name="name" val="post_training_code" valType="code" updates="None"/>
         <Param name="Begin Routine" val="&#10;&#10;&#10;" valType="extendedCode" updates="constant"/>
         <Param name="End Routine" val="# End loops if mastery criterion was met&#10;thisExp.addData('total_correct', total_correct)&#10;&#10;if total_correct &gt;= training_criterion:&#10;    passed_training = True&#10;    training.finished = True&#10;    max_testing_var = max_testing&#10;&#10;thisExp.addData('passed_training', passed_training)&#10;&#10;#reset counter for testing or more training&#10;total_correct = 0" valType="extendedCode" updates="constant"/>
-        <Param name="End Experiment" val="" valType="extendedCode" updates="constant"/>
-        <Param name="Each Frame" val="" valType="extendedCode" updates="constant"/>
-      </CodeComponent>
-    </Routine>
-    <Routine name="postblock">
-      <CodeComponent name="postblock_code">
-        <Param name="Begin Experiment" val="" valType="extendedCode" updates="constant"/>
-        <Param name="name" val="postblock_code" valType="code" updates="None"/>
-        <Param name="Begin Routine" val="&#10;&#10;&#10;" valType="extendedCode" updates="constant"/>
-        <Param name="End Routine" val="# End loops if mastery criterion was met&#10;thisExp.addData('total_correct', total_correct)&#10;&#10;if total_correct &gt;= mastery_criterion:&#10;    passed_equivalence = True&#10;    blocks_loop.finished = True&#10;else:&#10;    total_correct = 0  #reset counter&#10;&#10;thisExp.addData('passed_equivalence', passed_equivalence)" valType="extendedCode" updates="constant"/>
         <Param name="End Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="Each Frame" val="" valType="extendedCode" updates="constant"/>
       </CodeComponent>
@@ -377,7 +367,7 @@
       <Param name="name" val="training_trials" valType="code" updates="None"/>
       <Param name="isTrials" val="True" valType="bool" updates="None"/>
       <Param name="random seed" val="" valType="code" updates="None"/>
-      <Param name="loopType" val="random" valType="str" updates="None"/>
+      <Param name="loopType" val="fullRandom" valType="str" updates="None"/>
       <Param name="nReps" val="training_block_length_multiplier" valType="code" updates="None"/>
       <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
       <Param name="conditions" val="[{u'sample_category': u'a1', u'target_category_required': u'b1', u'required_response': u'left', u'target_category_wrong_2': u'b3', u'target_category_wrong_1': u'b2', u'trial_description': u'ab'}, {u'sample_category': u'a1', u'target_category_required': u'b1', u'required_response': u'right', u'target_category_wrong_2': u'b3', u'target_category_wrong_1': u'b2', u'trial_description': u'ab'}, {u'sample_category': u'a1', u'target_category_required': u'b1', u'required_response': u'down', u'target_category_wrong_2': u'b3', u'target_category_wrong_1': u'b2', u'trial_description': u'ab'}, {u'sample_category': u'a2', u'target_category_required': u'b2', u'required_response': u'left', u'target_category_wrong_2': u'b3', u'target_category_wrong_1': u'b1', u'trial_description': u'ab'}, {u'sample_category': u'a2', u'target_category_required': u'b2', u'required_response': u'right', u'target_category_wrong_2': u'b3', u'target_category_wrong_1': u'b1', u'trial_description': u'ab'}, {u'sample_category': u'a2', u'target_category_required': u'b2', u'required_response': u'down', u'target_category_wrong_2': u'b3', u'target_category_wrong_1': u'b1', u'trial_description': u'ab'}, {u'sample_category': u'a3', u'target_category_required': u'b3', u'required_response': u'left', u'target_category_wrong_2': u'b2', u'target_category_wrong_1': u'b1', u'trial_description': u'ab'}, {u'sample_category': u'a3', u'target_category_required': u'b3', u'required_response': u'right', u'target_category_wrong_2': u'b2', u'target_category_wrong_1': u'b1', u'trial_description': u'ab'}, {u'sample_category': u'a3', u'target_category_required': u'b3', u'required_response': u'down', u'target_category_wrong_2': u'b2', u'target_category_wrong_1': u'b1', u'trial_description': u'ab'}, {u'sample_category': u'a1', u'target_category_required': u'c1', u'required_response': u'left', u'target_category_wrong_2': u'c3', u'target_category_wrong_1': u'c2', u'trial_description': u'ac'}, {u'sample_category': u'a1', u'target_category_required': u'c1', u'required_response': u'right', u'target_category_wrong_2': u'c3', u'target_category_wrong_1': u'c2', u'trial_description': u'ac'}, {u'sample_category': u'a1', u'target_category_required': u'c1', u'required_response': u'down', u'target_category_wrong_2': u'c3', u'target_category_wrong_1': u'c2', u'trial_description': u'ac'}, {u'sample_category': u'a2', u'target_category_required': u'c2', u'required_response': u'left', u'target_category_wrong_2': u'c3', u'target_category_wrong_1': u'c1', u'trial_description': u'ac'}, {u'sample_category': u'a2', u'target_category_required': u'c2', u'required_response': u'right', u'target_category_wrong_2': u'c3', u'target_category_wrong_1': u'c1', u'trial_description': u'ac'}, {u'sample_category': u'a2', u'target_category_required': u'c2', u'required_response': u'down', u'target_category_wrong_2': u'c3', u'target_category_wrong_1': u'c1', u'trial_description': u'ac'}, {u'sample_category': u'a3', u'target_category_required': u'c3', u'required_response': u'left', u'target_category_wrong_2': u'c2', u'target_category_wrong_1': u'c1', u'trial_description': u'ac'}, {u'sample_category': u'a3', u'target_category_required': u'c3', u'required_response': u'right', u'target_category_wrong_2': u'c2', u'target_category_wrong_1': u'c1', u'trial_description': u'ac'}, {u'sample_category': u'a3', u'target_category_required': u'c3', u'required_response': u'down', u'target_category_wrong_2': u'c2', u'target_category_wrong_1': u'c1', u'trial_description': u'ac'}]" valType="str" updates="None"/>
@@ -417,7 +407,7 @@
       <Param name="name" val="testing_trials" valType="code" updates="None"/>
       <Param name="isTrials" val="True" valType="bool" updates="None"/>
       <Param name="random seed" val="" valType="code" updates="None"/>
-      <Param name="loopType" val="sequential" valType="str" updates="None"/>
+      <Param name="loopType" val="fullRandom" valType="str" updates="None"/>
       <Param name="nReps" val="testing_block_length_multiplier" valType="code" updates="None"/>
       <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
       <Param name="conditions" val="[{u'sample_category': u'c1', u'target_category_required': u'b1', u'required_response': u'left', u'target_category_wrong_2': u'b3', u'target_category_wrong_1': u'b2', u'trial_description': u'cb'}, {u'sample_category': u'c1', u'target_category_required': u'b1', u'required_response': u'right', u'target_category_wrong_2': u'b3', u'target_category_wrong_1': u'b2', u'trial_description': u'cb'}, {u'sample_category': u'c1', u'target_category_required': u'b1', u'required_response': u'down', u'target_category_wrong_2': u'b3', u'target_category_wrong_1': u'b2', u'trial_description': u'cb'}, {u'sample_category': u'c2', u'target_category_required': u'b2', u'required_response': u'left', u'target_category_wrong_2': u'b3', u'target_category_wrong_1': u'b1', u'trial_description': u'cb'}, {u'sample_category': u'c2', u'target_category_required': u'b2', u'required_response': u'right', u'target_category_wrong_2': u'b3', u'target_category_wrong_1': u'b1', u'trial_description': u'cb'}, {u'sample_category': u'c2', u'target_category_required': u'b2', u'required_response': u'down', u'target_category_wrong_2': u'b3', u'target_category_wrong_1': u'b1', u'trial_description': u'cb'}, {u'sample_category': u'c3', u'target_category_required': u'b3', u'required_response': u'left', u'target_category_wrong_2': u'b2', u'target_category_wrong_1': u'b1', u'trial_description': u'cb'}, {u'sample_category': u'c3', u'target_category_required': u'b3', u'required_response': u'right', u'target_category_wrong_2': u'b2', u'target_category_wrong_1': u'b1', u'trial_description': u'cb'}, {u'sample_category': u'c3', u'target_category_required': u'b3', u'required_response': u'down', u'target_category_wrong_2': u'b2', u'target_category_wrong_1': u'b1', u'trial_description': u'cb'}]" valType="str" updates="None"/>

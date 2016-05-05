@@ -1,5 +1,4 @@
-max_testing,b1_exemplar,c2_exemplar,correct_message,training_criterion,inst_intro,c3_exemplar,wrong_message,testing_block_length_multiplier,b3_exemplar,a3_exemplar,b2_exemplar,inst_testing,training_block_length_multiplier,c1_exemplar,a1_exemplar,inst_training,max_training_and_testing,testing_criterion,a2_exemplar,max_training,target_category_required,sample_category,target_category_wrong_2,required_response,target_category_wrong_1,trial_description,task.thisRepN,task.thisTrialN,task.thisN,task.thisIndex,training_and_testing.thisRepN,training_and_testing.thisTrialN,training_and_testing.thisN,training_and_testing.thisIndex,training.thisRepN,training.thisTrialN,training.thisN,training.thisIndex,training.thisTrial,training_trials.thisRepN,training_trials.thisTrialN,training_trials.thisN,training_trials.thisIndex,post_trainng_loop.thisRepN,post_trainng_loop.thisTrialN,post_trainng_loop.thisN,post_trainng_loop.thisIndex,testing.thisRepN,testing.thisTrialN,testing.thisN,testing.thisIndex,testing_trials.thisRepN,testing_trials.thisTrialN,testing_trials.thisN,testing_trials.thisIndex,post_testing_loop.thisRepN,post_testing_loop.thisTrialN,post_testing_loop.thisN,post_testing_loop.thisIndex,sample,target_left,target_middle,target_right,response.keys,response.corr,response.rt,total_correct,passed_training,passed_testing,participant,gender,age,frameRate,expName,date,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+max_testing,b1_exemplar,c2_exemplar,correct_message,training_criterion,inst_intro,c3_exemplar,wrong_message,testing_block_length_multiplier,b3_exemplar,a3_exemplar,b2_exemplar,inst_testing,training_block_length_multiplier,c1_exemplar,a1_exemplar,inst_training,max_training_and_testing,testing_criterion,a2_exemplar,max_training,target_category_required,sample_category,target_category_wrong_2,required_response,target_category_wrong_1,trial_description,task.thisRepN,task.thisTrialN,task.thisN,task.thisIndex,training_and_testing.thisRepN,training_and_testing.thisTrialN,training_and_testing.thisN,training_and_testing.thisIndex,training.thisRepN,training.thisTrialN,training.thisN,training.thisIndex,training.thisTrial,training_trials.thisRepN,training_trials.thisTrialN,training_trials.thisN,training_trials.thisIndex,post_training_loop.thisRepN,post_trainng_loop.thisTrialN,post_trainng_loop.thisN,post_trainng_loop.thisIndex,testing.thisRepN,testing.thisTrialN,testing.thisN,testing.thisIndex,testing_trials.thisRepN,testing_trials.thisTrialN,testing_trials.thisN,testing_trials.thisIndex,post_testing_loop.thisRepN,post_testing_loop.thisTrialN,post_testing_loop.thisN,post_testing_loop.thisIndex,sample,target_left,target_middle,target_right,response.keys,response.corr,response.rt,total_correct,passed_training,passed_testing,participant,gender,age,frameRate,expName,date1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -11,8 +10,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b3,a3,b2,down,b1,ab,0,0,0,0,0,0,0,0,0,0,0,0,None,0,0,0,8,,,,,,,,,,,,,,,,,A3,B1,B3,B2,left,0,0.654071092606,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b3,a3,b2,down,b1,ab,0,0,0,0,0,0,0,0,0,0,0,0,None,0,0,0,8,,,,,,,,,,,,,,,,,A3,B1,B3,B2,left,0,0.654071093,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -24,8 +22,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c1,a1,c3,down,c2,ac,0,0,0,0,0,0,0,0,0,0,0,0,None,0,1,1,11,,,,,,,,,,,,,,,,,A1,C3,C1,C2,down,1,1.60822701454,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c1,a1,c3,down,c2,ac,0,0,0,0,0,0,0,0,0,0,0,0,None,0,1,1,11,,,,,,,,,,,,,,,,,A1,C3,C1,C2,down,1,1.608227015,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -37,8 +34,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b1,a1,b3,right,b2,ab,0,0,0,0,0,0,0,0,0,0,0,0,None,0,2,2,1,,,,,,,,,,,,,,,,,A1,B2,B3,B1,right,1,0.571062088013,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b1,a1,b3,right,b2,ab,0,0,0,0,0,0,0,0,0,0,0,0,None,0,2,2,1,,,,,,,,,,,,,,,,,A1,B2,B3,B1,right,1,0.571062088,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -50,8 +46,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c1,a1,c3,left,c2,ac,0,0,0,0,0,0,0,0,0,0,0,0,None,0,3,3,9,,,,,,,,,,,,,,,,,A1,C1,C3,C2,left,1,0.669691801071,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c1,a1,c3,left,c2,ac,0,0,0,0,0,0,0,0,0,0,0,0,None,0,3,3,9,,,,,,,,,,,,,,,,,A1,C1,C3,C2,left,1,0.669691801,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -63,8 +58,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c3,a3,c2,right,c1,ac,0,0,0,0,0,0,0,0,0,0,0,0,None,0,4,4,16,,,,,,,,,,,,,,,,,A3,C2,C1,C3,right,1,2.07405900955,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c3,a3,c2,right,c1,ac,0,0,0,0,0,0,0,0,0,0,0,0,None,0,4,4,16,,,,,,,,,,,,,,,,,A3,C2,C1,C3,right,1,2.07405901,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -76,8 +70,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c2,a2,c3,right,c1,ac,0,0,0,0,0,0,0,0,0,0,0,0,None,0,5,5,13,,,,,,,,,,,,,,,,,A2,C3,C1,C2,right,1,7.41980409622,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c2,a2,c3,right,c1,ac,0,0,0,0,0,0,0,0,0,0,0,0,None,0,5,5,13,,,,,,,,,,,,,,,,,A2,C3,C1,C2,right,1,7.419804096,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -89,8 +82,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c3,a3,c2,down,c1,ac,0,0,0,0,0,0,0,0,0,0,0,0,None,0,6,6,17,,,,,,,,,,,,,,,,,A3,C1,C3,C2,down,1,0.687949895859,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c3,a3,c2,down,c1,ac,0,0,0,0,0,0,0,0,0,0,0,0,None,0,6,6,17,,,,,,,,,,,,,,,,,A3,C1,C3,C2,down,1,0.687949896,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -102,8 +94,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b3,a3,b2,right,b1,ab,0,0,0,0,0,0,0,0,0,0,0,0,None,0,7,7,7,,,,,,,,,,,,,,,,,A3,B2,B1,B3,right,1,1.59213685989,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b3,a3,b2,right,b1,ab,0,0,0,0,0,0,0,0,0,0,0,0,None,0,7,7,7,,,,,,,,,,,,,,,,,A3,B2,B1,B3,right,1,1.59213686,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -115,8 +106,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b3,a3,b2,left,b1,ab,0,0,0,0,0,0,0,0,0,0,0,0,None,0,8,8,6,,,,,,,,,,,,,,,,,A3,B3,B1,B2,left,1,0.721966028214,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b3,a3,b2,left,b1,ab,0,0,0,0,0,0,0,0,0,0,0,0,None,0,8,8,6,,,,,,,,,,,,,,,,,A3,B3,B1,B2,left,1,0.721966028,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -128,8 +118,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c1,a1,c3,right,c2,ac,0,0,0,0,0,0,0,0,0,0,0,0,None,0,9,9,10,,,,,,,,,,,,,,,,,A1,C3,C2,C1,right,1,0.487787008286,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c1,a1,c3,right,c2,ac,0,0,0,0,0,0,0,0,0,0,0,0,None,0,9,9,10,,,,,,,,,,,,,,,,,A1,C3,C2,C1,right,1,0.487787008,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -141,8 +130,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c2,a2,c3,left,c1,ac,0,0,0,0,0,0,0,0,0,0,0,0,None,0,10,10,12,,,,,,,,,,,,,,,,,A2,C2,C3,C1,left,1,2.01151704788,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c2,a2,c3,left,c1,ac,0,0,0,0,0,0,0,0,0,0,0,0,None,0,10,10,12,,,,,,,,,,,,,,,,,A2,C2,C3,C1,left,1,2.011517048,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -154,8 +142,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b2,a2,b3,left,b1,ab,0,0,0,0,0,0,0,0,0,0,0,0,None,0,11,11,3,,,,,,,,,,,,,,,,,A2,B2,B1,B3,left,1,9.17619085312,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b2,a2,b3,left,b1,ab,0,0,0,0,0,0,0,0,0,0,0,0,None,0,11,11,3,,,,,,,,,,,,,,,,,A2,B2,B1,B3,left,1,9.176190853,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -167,8 +154,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b1,a1,b3,down,b2,ab,0,0,0,0,0,0,0,0,0,0,0,0,None,0,12,12,2,,,,,,,,,,,,,,,,,A1,B2,B1,B3,down,1,0.904340028763,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b1,a1,b3,down,b2,ab,0,0,0,0,0,0,0,0,0,0,0,0,None,0,12,12,2,,,,,,,,,,,,,,,,,A1,B2,B1,B3,down,1,0.904340029,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -180,8 +166,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b2,a2,b3,right,b1,ab,0,0,0,0,0,0,0,0,0,0,0,0,None,0,13,13,4,,,,,,,,,,,,,,,,,A2,B1,B3,B2,right,1,0.686769962311,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b2,a2,b3,right,b1,ab,0,0,0,0,0,0,0,0,0,0,0,0,None,0,13,13,4,,,,,,,,,,,,,,,,,A2,B1,B3,B2,right,1,0.686769962,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -193,8 +178,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c2,a2,c3,down,c1,ac,0,0,0,0,0,0,0,0,0,0,0,0,None,0,14,14,14,,,,,,,,,,,,,,,,,A2,C3,C2,C1,down,1,2.06197094917,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c2,a2,c3,down,c1,ac,0,0,0,0,0,0,0,0,0,0,0,0,None,0,14,14,14,,,,,,,,,,,,,,,,,A2,C3,C2,C1,down,1,2.061970949,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -206,8 +190,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b1,a1,b3,left,b2,ab,0,0,0,0,0,0,0,0,0,0,0,0,None,0,15,15,0,,,,,,,,,,,,,,,,,A1,B1,B2,B3,left,1,1.90943789482,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b1,a1,b3,left,b2,ab,0,0,0,0,0,0,0,0,0,0,0,0,None,0,15,15,0,,,,,,,,,,,,,,,,,A1,B1,B2,B3,left,1,1.909437895,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -219,8 +202,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c3,a3,c2,left,c1,ac,0,0,0,0,0,0,0,0,0,0,0,0,None,0,16,16,15,,,,,,,,,,,,,,,,,A3,C3,C1,C2,left,1,0.553671121597,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c3,a3,c2,left,c1,ac,0,0,0,0,0,0,0,0,0,0,0,0,None,0,16,16,15,,,,,,,,,,,,,,,,,A3,C3,C1,C2,left,1,0.553671122,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -232,8 +214,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b2,a2,b3,down,b1,ab,0,0,0,0,0,0,0,0,0,0,0,0,None,0,17,17,5,,,,,,,,,,,,,,,,,A2,B1,B2,B3,down,1,0.653347969055,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b2,a2,b3,down,b1,ab,0,0,0,0,0,0,0,0,0,0,0,0,None,0,17,17,5,,,,,,,,,,,,,,,,,A2,B1,B2,B3,down,1,0.653347969,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -245,8 +226,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,None,,,,,0,0,0,0,,,,,,,,,,,,,,,,,,,,17,True,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,None,,,,,0,0,0,0,,,,,,,,,,,,,,,,,,,,17,TRUE,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -258,8 +238,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b1,c1,b3,left,b2,cb,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,,,,,C1,B1,B2,B3,left,1,0.738280057907,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b1,c1,b3,left,b2,cb,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,,,,,C1,B1,B2,B3,left,1,0.738280058,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -271,8 +250,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b1,c1,b3,right,b2,cb,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,0,0,0,0,0,1,1,1,,,,,C1,B3,B2,B1,left,0,3.91877102852,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b1,c1,b3,right,b2,cb,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,0,0,0,0,0,1,1,1,,,,,C1,B3,B2,B1,left,0,3.918771029,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -284,8 +262,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b1,c1,b3,down,b2,cb,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,0,0,0,0,0,2,2,2,,,,,C1,B3,B1,B2,left,0,0.486096858978,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b1,c1,b3,down,b2,cb,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,0,0,0,0,0,2,2,2,,,,,C1,B3,B1,B2,left,0,0.486096859,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -297,8 +274,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b2,c2,b3,left,b1,cb,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,0,0,0,0,0,3,3,3,,,,,C2,B2,B1,B3,left,1,0.369912862778,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b2,c2,b3,left,b1,cb,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,0,0,0,0,0,3,3,3,,,,,C2,B2,B1,B3,left,1,0.369912863,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -310,8 +286,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b2,c2,b3,right,b1,cb,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,0,0,0,0,0,4,4,4,,,,,C2,B1,B3,B2,left,0,0.286382913589,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b2,c2,b3,right,b1,cb,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,0,0,0,0,0,4,4,4,,,,,C2,B1,B3,B2,left,0,0.286382914,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -323,8 +298,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b2,c2,b3,down,b1,cb,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,0,0,0,0,0,5,5,5,,,,,C2,B3,B2,B1,left,0,0.253117084503,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b2,c2,b3,down,b1,cb,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,0,0,0,0,0,5,5,5,,,,,C2,B3,B2,B1,left,0,0.253117085,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -336,8 +310,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b3,c3,b2,left,b1,cb,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,0,0,0,0,0,6,6,6,,,,,C3,B3,B1,B2,left,1,0.268247127533,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b3,c3,b2,left,b1,cb,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,0,0,0,0,0,6,6,6,,,,,C3,B3,B1,B2,left,1,0.268247128,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -349,8 +322,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b3,c3,b2,right,b1,cb,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,0,0,0,0,0,7,7,7,,,,,C3,B2,B1,B3,left,0,0.319051980972,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b3,c3,b2,right,b1,cb,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,0,0,0,0,0,7,7,7,,,,,C3,B2,B1,B3,left,0,0.319051981,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -362,8 +334,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b3,c3,b2,down,b1,cb,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,0,0,0,0,0,8,8,8,,,,,C3,B2,B3,B1,left,0,0.319144010544,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b3,c3,b2,down,b1,cb,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,0,0,0,0,0,8,8,8,,,,,C3,B2,B3,B1,left,0,0.319144011,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -375,8 +346,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,,,,,,,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,0,0,0,0,,,,,0,0,0,0,,,,,,,,3,,False,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,,,,,,,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,0,0,0,0,,,,,0,0,0,0,,,,,,,,3,,FALSE,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -388,8 +358,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b2,a2,b3,down,b1,ab,0,0,0,0,1,0,1,0,0,0,0,0,None,0,0,0,5,,,,,,,,,,,,,,,,,A2,B3,B2,B1,left,0,1.40802502632,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b2,a2,b3,down,b1,ab,0,0,0,0,1,0,1,0,0,0,0,0,None,0,0,0,5,,,,,,,,,,,,,,,,,A2,B3,B2,B1,left,0,1.408025026,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -401,8 +370,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c3,a3,c2,left,c1,ac,0,0,0,0,1,0,1,0,0,0,0,0,None,0,1,1,15,,,,,,,,,,,,,,,,,A3,C3,C1,C2,left,1,0.303769111633,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c3,a3,c2,left,c1,ac,0,0,0,0,1,0,1,0,0,0,0,0,None,0,1,1,15,,,,,,,,,,,,,,,,,A3,C3,C1,C2,left,1,0.303769112,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -414,8 +382,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c2,a2,c3,right,c1,ac,0,0,0,0,1,0,1,0,0,0,0,0,None,0,2,2,13,,,,,,,,,,,,,,,,,A2,C3,C1,C2,left,0,0.435820102692,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c2,a2,c3,right,c1,ac,0,0,0,0,1,0,1,0,0,0,0,0,None,0,2,2,13,,,,,,,,,,,,,,,,,A2,C3,C1,C2,left,0,0.435820103,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -427,8 +394,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c2,a2,c3,left,c1,ac,0,0,0,0,1,0,1,0,0,0,0,0,None,0,3,3,12,,,,,,,,,,,,,,,,,A2,C2,C1,C3,left,1,1.02339887619,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c2,a2,c3,left,c1,ac,0,0,0,0,1,0,1,0,0,0,0,0,None,0,3,3,12,,,,,,,,,,,,,,,,,A2,C2,C1,C3,left,1,1.023398876,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -440,8 +406,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b3,a3,b2,right,b1,ab,0,0,0,0,1,0,1,0,0,0,0,0,None,0,4,4,7,,,,,,,,,,,,,,,,,A3,B2,B1,B3,left,0,0.520141124725,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b3,a3,b2,right,b1,ab,0,0,0,0,1,0,1,0,0,0,0,0,None,0,4,4,7,,,,,,,,,,,,,,,,,A3,B2,B1,B3,left,0,0.520141125,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -453,8 +418,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c1,a1,c3,left,c2,ac,0,0,0,0,1,0,1,0,0,0,0,0,None,0,5,5,9,,,,,,,,,,,,,,,,,A1,C1,C3,C2,left,1,0.786221981049,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c1,a1,c3,left,c2,ac,0,0,0,0,1,0,1,0,0,0,0,0,None,0,5,5,9,,,,,,,,,,,,,,,,,A1,C1,C3,C2,left,1,0.786221981,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -466,8 +430,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b1,a1,b3,right,b2,ab,0,0,0,0,1,0,1,0,0,0,0,0,None,0,6,6,1,,,,,,,,,,,,,,,,,A1,B2,B3,B1,left,0,0.603160858154,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b1,a1,b3,right,b2,ab,0,0,0,0,1,0,1,0,0,0,0,0,None,0,6,6,1,,,,,,,,,,,,,,,,,A1,B2,B3,B1,left,0,0.603160858,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -479,8 +442,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c1,a1,c3,down,c2,ac,0,0,0,0,1,0,1,0,0,0,0,0,None,0,7,7,11,,,,,,,,,,,,,,,,,A1,C2,C1,C3,left,0,0.586719989777,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c1,a1,c3,down,c2,ac,0,0,0,0,1,0,1,0,0,0,0,0,None,0,7,7,11,,,,,,,,,,,,,,,,,A1,C2,C1,C3,left,0,0.58671999,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -492,8 +454,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c3,a3,c2,right,c1,ac,0,0,0,0,1,0,1,0,0,0,0,0,None,0,8,8,16,,,,,,,,,,,,,,,,,A3,C1,C2,C3,left,0,0.386541128159,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c3,a3,c2,right,c1,ac,0,0,0,0,1,0,1,0,0,0,0,0,None,0,8,8,16,,,,,,,,,,,,,,,,,A3,C1,C2,C3,left,0,0.386541128,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -505,8 +466,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c2,a2,c3,down,c1,ac,0,0,0,0,1,0,1,0,0,0,0,0,None,0,9,9,14,,,,,,,,,,,,,,,,,A2,C3,C2,C1,left,0,1.50882601738,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c2,a2,c3,down,c1,ac,0,0,0,0,1,0,1,0,0,0,0,0,None,0,9,9,14,,,,,,,,,,,,,,,,,A2,C3,C2,C1,left,0,1.508826017,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -518,8 +478,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b2,a2,b3,right,b1,ab,0,0,0,0,1,0,1,0,0,0,0,0,None,0,10,10,4,,,,,,,,,,,,,,,,,A2,B1,B3,B2,left,0,1.62419199944,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b2,a2,b3,right,b1,ab,0,0,0,0,1,0,1,0,0,0,0,0,None,0,10,10,4,,,,,,,,,,,,,,,,,A2,B1,B3,B2,left,0,1.624191999,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -531,8 +490,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b3,a3,b2,down,b1,ab,0,0,0,0,1,0,1,0,0,0,0,0,None,0,11,11,8,,,,,,,,,,,,,,,,,A3,B2,B3,B1,left,0,1.30654191971,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b3,a3,b2,down,b1,ab,0,0,0,0,1,0,1,0,0,0,0,0,None,0,11,11,8,,,,,,,,,,,,,,,,,A3,B2,B3,B1,left,0,1.30654192,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -544,8 +502,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b2,a2,b3,left,b1,ab,0,0,0,0,1,0,1,0,0,0,0,0,None,0,12,12,3,,,,,,,,,,,,,,,,,A2,B2,B3,B1,left,1,1.32370114326,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b2,a2,b3,left,b1,ab,0,0,0,0,1,0,1,0,0,0,0,0,None,0,12,12,3,,,,,,,,,,,,,,,,,A2,B2,B3,B1,left,1,1.323701143,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -557,8 +514,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b3,a3,b2,left,b1,ab,0,0,0,0,1,0,1,0,0,0,0,0,None,0,13,13,6,,,,,,,,,,,,,,,,,A3,B3,B2,B1,left,1,0.708980798721,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b3,a3,b2,left,b1,ab,0,0,0,0,1,0,1,0,0,0,0,0,None,0,13,13,6,,,,,,,,,,,,,,,,,A3,B3,B2,B1,left,1,0.708980799,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -570,8 +526,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b1,a1,b3,left,b2,ab,0,0,0,0,1,0,1,0,0,0,0,0,None,0,14,14,0,,,,,,,,,,,,,,,,,A1,B1,B3,B2,left,1,0.519633054733,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b1,a1,b3,left,b2,ab,0,0,0,0,1,0,1,0,0,0,0,0,None,0,14,14,0,,,,,,,,,,,,,,,,,A1,B1,B3,B2,left,1,0.519633055,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -583,8 +538,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c1,a1,c3,right,c2,ac,0,0,0,0,1,0,1,0,0,0,0,0,None,0,15,15,10,,,,,,,,,,,,,,,,,A1,C2,C3,C1,left,0,0.403303861618,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c1,a1,c3,right,c2,ac,0,0,0,0,1,0,1,0,0,0,0,0,None,0,15,15,10,,,,,,,,,,,,,,,,,A1,C2,C3,C1,left,0,0.403303862,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -596,8 +550,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b1,a1,b3,down,b2,ab,0,0,0,0,1,0,1,0,0,0,0,0,None,0,16,16,2,,,,,,,,,,,,,,,,,A1,B3,B1,B2,left,0,0.385604858398,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b1,a1,b3,down,b2,ab,0,0,0,0,1,0,1,0,0,0,0,0,None,0,16,16,2,,,,,,,,,,,,,,,,,A1,B3,B1,B2,left,0,0.385604858,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -609,8 +562,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c3,a3,c2,down,c1,ac,0,0,0,0,1,0,1,0,0,0,0,0,None,0,17,17,17,,,,,,,,,,,,,,,,,A3,C2,C3,C1,left,0,0.387112855911,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c3,a3,c2,down,c1,ac,0,0,0,0,1,0,1,0,0,0,0,0,None,0,17,17,17,,,,,,,,,,,,,,,,,A3,C2,C3,C1,left,0,0.387112856,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -622,8 +574,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,,,,,,,0,0,0,0,1,0,1,0,0,0,0,0,None,,,,,0,0,0,0,,,,,,,,,,,,,,,,,,,,6,True,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,,,,,,,0,0,0,0,1,0,1,0,0,0,0,0,None,,,,,0,0,0,0,,,,,,,,,,,,,,,,,,,,6,TRUE,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -635,8 +586,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b3,a3,b2,right,b1,ab,0,0,0,0,1,0,1,0,1,0,1,0,None,0,0,0,7,,,,,,,,,,,,,,,,,A3,B1,B2,B3,right,1,0.889991044998,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b3,a3,b2,right,b1,ab,0,0,0,0,1,0,1,0,1,0,1,0,None,0,0,0,7,,,,,,,,,,,,,,,,,A3,B1,B2,B3,right,1,0.889991045,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -648,8 +598,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b1,a1,b3,down,b2,ab,0,0,0,0,1,0,1,0,1,0,1,0,None,0,1,1,2,,,,,,,,,,,,,,,,,A1,B3,B1,B2,down,1,0.602157115936,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b1,a1,b3,down,b2,ab,0,0,0,0,1,0,1,0,1,0,1,0,None,0,1,1,2,,,,,,,,,,,,,,,,,A1,B3,B1,B2,down,1,0.602157116,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -661,8 +610,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b2,a2,b3,right,b1,ab,0,0,0,0,1,0,1,0,1,0,1,0,None,0,2,2,4,,,,,,,,,,,,,,,,,A2,B3,B1,B2,right,1,0.63792681694,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b2,a2,b3,right,b1,ab,0,0,0,0,1,0,1,0,1,0,1,0,None,0,2,2,4,,,,,,,,,,,,,,,,,A2,B3,B1,B2,right,1,0.637926817,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -674,8 +622,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c3,a3,c2,down,c1,ac,0,0,0,0,1,0,1,0,1,0,1,0,None,0,3,3,17,,,,,,,,,,,,,,,,,A3,C2,C3,C1,down,1,0.687373876572,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c3,a3,c2,down,c1,ac,0,0,0,0,1,0,1,0,1,0,1,0,None,0,3,3,17,,,,,,,,,,,,,,,,,A3,C2,C3,C1,down,1,0.687373877,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -687,8 +634,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c2,a2,c3,down,c1,ac,0,0,0,0,1,0,1,0,1,0,1,0,None,0,4,4,14,,,,,,,,,,,,,,,,,A2,C3,C2,C1,down,1,0.904356002808,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c2,a2,c3,down,c1,ac,0,0,0,0,1,0,1,0,1,0,1,0,None,0,4,4,14,,,,,,,,,,,,,,,,,A2,C3,C2,C1,down,1,0.904356003,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -700,8 +646,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b2,a2,b3,left,b1,ab,0,0,0,0,1,0,1,0,1,0,1,0,None,0,5,5,3,,,,,,,,,,,,,,,,,A2,B2,B1,B3,left,1,4.25379109383,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b2,a2,b3,left,b1,ab,0,0,0,0,1,0,1,0,1,0,1,0,None,0,5,5,3,,,,,,,,,,,,,,,,,A2,B2,B1,B3,left,1,4.253791094,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -713,8 +658,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b1,a1,b3,right,b2,ab,0,0,0,0,1,0,1,0,1,0,1,0,None,0,6,6,1,,,,,,,,,,,,,,,,,A1,B2,B3,B1,right,1,0.687420845032,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b1,a1,b3,right,b2,ab,0,0,0,0,1,0,1,0,1,0,1,0,None,0,6,6,1,,,,,,,,,,,,,,,,,A1,B2,B3,B1,right,1,0.687420845,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -726,8 +670,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b3,a3,b2,left,b1,ab,0,0,0,0,1,0,1,0,1,0,1,0,None,0,7,7,6,,,,,,,,,,,,,,,,,A3,B3,B2,B1,left,1,0.61814904213,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b3,a3,b2,left,b1,ab,0,0,0,0,1,0,1,0,1,0,1,0,None,0,7,7,6,,,,,,,,,,,,,,,,,A3,B3,B2,B1,left,1,0.618149042,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -739,8 +682,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c1,a1,c3,left,c2,ac,0,0,0,0,1,0,1,0,1,0,1,0,None,0,8,8,9,,,,,,,,,,,,,,,,,A1,C1,C3,C2,left,1,0.554232120514,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c1,a1,c3,left,c2,ac,0,0,0,0,1,0,1,0,1,0,1,0,None,0,8,8,9,,,,,,,,,,,,,,,,,A1,C1,C3,C2,left,1,0.554232121,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -752,8 +694,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b1,a1,b3,left,b2,ab,0,0,0,0,1,0,1,0,1,0,1,0,None,0,9,9,0,,,,,,,,,,,,,,,,,A1,B1,B3,B2,left,1,0.554131984711,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b1,a1,b3,left,b2,ab,0,0,0,0,1,0,1,0,1,0,1,0,None,0,9,9,0,,,,,,,,,,,,,,,,,A1,B1,B3,B2,left,1,0.554131985,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -765,8 +706,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b3,a3,b2,down,b1,ab,0,0,0,0,1,0,1,0,1,0,1,0,None,0,10,10,8,,,,,,,,,,,,,,,,,A3,B2,B3,B1,down,1,0.620117902756,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b3,a3,b2,down,b1,ab,0,0,0,0,1,0,1,0,1,0,1,0,None,0,10,10,8,,,,,,,,,,,,,,,,,A3,B2,B3,B1,down,1,0.620117903,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -778,8 +718,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c3,a3,c2,left,c1,ac,0,0,0,0,1,0,1,0,1,0,1,0,None,0,11,11,15,,,,,,,,,,,,,,,,,A3,C3,C1,C2,left,1,0.720400810242,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c3,a3,c2,left,c1,ac,0,0,0,0,1,0,1,0,1,0,1,0,None,0,11,11,15,,,,,,,,,,,,,,,,,A3,C3,C1,C2,left,1,0.72040081,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -791,8 +730,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c2,a2,c3,left,c1,ac,0,0,0,0,1,0,1,0,1,0,1,0,None,0,12,12,12,,,,,,,,,,,,,,,,,A2,C2,C3,C1,left,1,0.571068048477,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c2,a2,c3,left,c1,ac,0,0,0,0,1,0,1,0,1,0,1,0,None,0,12,12,12,,,,,,,,,,,,,,,,,A2,C2,C3,C1,left,1,0.571068048,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -804,8 +742,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c1,a1,c3,down,c2,ac,0,0,0,0,1,0,1,0,1,0,1,0,None,0,13,13,11,,,,,,,,,,,,,,,,,A1,C3,C1,C2,down,1,0.553709983826,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c1,a1,c3,down,c2,ac,0,0,0,0,1,0,1,0,1,0,1,0,None,0,13,13,11,,,,,,,,,,,,,,,,,A1,C3,C1,C2,down,1,0.553709984,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -817,8 +754,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c3,a3,c2,right,c1,ac,0,0,0,0,1,0,1,0,1,0,1,0,None,0,14,14,16,,,,,,,,,,,,,,,,,A3,C1,C2,C3,right,1,1.24070596695,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c3,a3,c2,right,c1,ac,0,0,0,0,1,0,1,0,1,0,1,0,None,0,14,14,16,,,,,,,,,,,,,,,,,A3,C1,C2,C3,right,1,1.240705967,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -830,8 +766,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c2,a2,c3,right,c1,ac,0,0,0,0,1,0,1,0,1,0,1,0,None,0,15,15,13,,,,,,,,,,,,,,,,,A2,C3,C1,C2,right,1,0.771381139755,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c2,a2,c3,right,c1,ac,0,0,0,0,1,0,1,0,1,0,1,0,None,0,15,15,13,,,,,,,,,,,,,,,,,A2,C3,C1,C2,right,1,0.77138114,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -843,8 +778,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b2,a2,b3,down,b1,ab,0,0,0,0,1,0,1,0,1,0,1,0,None,0,16,16,5,,,,,,,,,,,,,,,,,A2,B3,B2,B1,down,1,0.737776994705,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b2,a2,b3,down,b1,ab,0,0,0,0,1,0,1,0,1,0,1,0,None,0,16,16,5,,,,,,,,,,,,,,,,,A2,B3,B2,B1,down,1,0.737776995,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -856,8 +790,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,c1,a1,c3,right,c2,ac,0,0,0,0,1,0,1,0,1,0,1,0,None,0,17,17,10,,,,,,,,,,,,,,,,,A1,C2,C3,C1,right,1,0.55316901207,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,c1,a1,c3,right,c2,ac,0,0,0,0,1,0,1,0,1,0,1,0,None,0,17,17,10,,,,,,,,,,,,,,,,,A1,C2,C3,C1,right,1,0.553169012,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -869,8 +802,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,,,,,,,0,0,0,0,1,0,1,0,1,0,1,0,None,,,,,0,0,0,0,,,,,,,,,,,,,,,,,,,,18,True,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,,,,,,,0,0,0,0,1,0,1,0,1,0,1,0,None,,,,,0,0,0,0,,,,,,,,,,,,,,,,,,,,18,TRUE,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -882,8 +814,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b1,c1,b3,left,b2,cb,0,0,0,0,1,0,1,0,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,,,,,C1,B1,B2,B3,left,1,1.03969192505,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b1,c1,b3,left,b2,cb,0,0,0,0,1,0,1,0,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,,,,,C1,B1,B2,B3,left,1,1.039691925,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -895,8 +826,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b1,c1,b3,right,b2,cb,0,0,0,0,1,0,1,0,,,,,,,,,,,,,,0,0,0,0,0,1,1,1,,,,,C1,B2,B3,B1,right,1,0.688184976578,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b1,c1,b3,right,b2,cb,0,0,0,0,1,0,1,0,,,,,,,,,,,,,,0,0,0,0,0,1,1,1,,,,,C1,B2,B3,B1,right,1,0.688184977,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -908,8 +838,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b1,c1,b3,down,b2,cb,0,0,0,0,1,0,1,0,,,,,,,,,,,,,,0,0,0,0,0,2,2,2,,,,,C1,B2,B1,B3,down,1,0.521022081375,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b1,c1,b3,down,b2,cb,0,0,0,0,1,0,1,0,,,,,,,,,,,,,,0,0,0,0,0,2,2,2,,,,,C1,B2,B1,B3,down,1,0.521022081,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -921,8 +850,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b2,c2,b3,left,b1,cb,0,0,0,0,1,0,1,0,,,,,,,,,,,,,,0,0,0,0,0,3,3,3,,,,,C2,B2,B3,B1,left,1,0.636100053787,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b2,c2,b3,left,b1,cb,0,0,0,0,1,0,1,0,,,,,,,,,,,,,,0,0,0,0,0,3,3,3,,,,,C2,B2,B3,B1,left,1,0.636100054,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -934,8 +862,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b2,c2,b3,right,b1,cb,0,0,0,0,1,0,1,0,,,,,,,,,,,,,,0,0,0,0,0,4,4,4,,,,,C2,B3,B1,B2,right,1,0.754410028458,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b2,c2,b3,right,b1,cb,0,0,0,0,1,0,1,0,,,,,,,,,,,,,,0,0,0,0,0,4,4,4,,,,,C2,B3,B1,B2,right,1,0.754410028,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -947,8 +874,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b2,c2,b3,down,b1,cb,0,0,0,0,1,0,1,0,,,,,,,,,,,,,,0,0,0,0,0,5,5,5,,,,,C2,B1,B2,B3,down,1,0.52031493187,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b2,c2,b3,down,b1,cb,0,0,0,0,1,0,1,0,,,,,,,,,,,,,,0,0,0,0,0,5,5,5,,,,,C2,B1,B2,B3,down,1,0.520314932,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -960,8 +886,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b3,c3,b2,left,b1,cb,0,0,0,0,1,0,1,0,,,,,,,,,,,,,,0,0,0,0,0,6,6,6,,,,,C3,B3,B2,B1,left,1,0.888025999069,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b3,c3,b2,left,b1,cb,0,0,0,0,1,0,1,0,,,,,,,,,,,,,,0,0,0,0,0,6,6,6,,,,,C3,B3,B2,B1,left,1,0.888025999,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -973,8 +898,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b3,c3,b2,right,b1,cb,0,0,0,0,1,0,1,0,,,,,,,,,,,,,,0,0,0,0,0,7,7,7,,,,,C3,B1,B2,B3,right,1,1.40793204308,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b3,c3,b2,right,b1,cb,0,0,0,0,1,0,1,0,,,,,,,,,,,,,,0,0,0,0,0,7,7,7,,,,,C3,B1,B2,B3,right,1,1.407932043,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -986,8 +910,7 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,b3,c3,b2,down,b1,cb,0,0,0,0,1,0,1,0,,,,,,,,,,,,,,0,0,0,0,0,8,8,8,,,,,C3,B1,B3,B2,down,1,0.823064088821,,,,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
-1,B1,C2,Correct,16,"In this task you will learn about nonsense words.
+Press any key to continue.",2,8,A2,10,b3,c3,b2,down,b1,cb,0,0,0,0,1,0,1,0,,,,,,,,,,,,,,0,0,0,0,0,8,8,8,,,,,C3,B1,B3,B2,down,1,0.823064089,,,,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_15591,B1,C2,Correct,16,"In this task you will learn about nonsense words.
 
 Each trial will present one word at the top of the screen, and three words at the bottom. 
 
@@ -999,4 +922,4 @@ Now respond based on what you have previously learned.
 
 Press any key to continue.",1,C1,A1,"Learn to respond to the words based on the feedback presented.
 
-Press any key to continue.",2,8,A2,10,,,,,,,0,0,0,0,1,0,1,0,,,,,,,,,,,,,,0,0,0,0,,,,,0,0,0,0,,,,,,,,9,,True,test,,,59.6858537418,MTS - OtM 3x3,2016_Apr_22_1559,
+Press any key to continue.",2,8,A2,10,,,,,,,0,0,0,0,1,0,1,0,,,,,,,,,,,,,,0,0,0,0,,,,,0,0,0,0,,,,,,,,9,,TRUE,test,,,59.68585374,MTS - OtM 3x3,2016_Apr_22_1559

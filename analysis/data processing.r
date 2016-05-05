@@ -23,7 +23,7 @@ library(data.table)
 
 ########################################################################
 # Data acquisition and cleaning
-setwd("~/git/MatchToSample/data")
+setwd("~/git/MatchToSample3x3/data")
 files <- list.files(pattern = "\\.csv$")  # Create a list of the csv files in this folder
 df <- tbl_df(rbind.fill(lapply(files, fread, header=TRUE)))  # Read these files into a single dplyr-style data frame. 
 
@@ -36,7 +36,7 @@ cleaning_df <-
          n_training_and_testing = training_and_testing.thisRepN,
          n_training = training.thisRepN,
          n_testing = testing.thisRepN,
-         training_summary_rows_only = post_trainng_loop.thisRepN,
+         training_summary_rows_only = post_training_loop.thisRepN,
          testing_summary_rows_only = post_testing_loop.thisRepN) %>%
   mutate(n_training_and_testing = n_training_and_testing +1,
          n_training = n_training +1,
@@ -122,5 +122,5 @@ output_df <-
          total_testing_trials = n_training_and_testing * n_testing * n_trials_per_testing_block)
 
 # Write to file
-write.csv(output_df, file = "~/git/MatchToSample/analysis/MTS_summary_data.csv", row.names=FALSE)
+write.csv(output_df, file = "~/git/MatchToSample3x3/analysis/MTS_summary_data.csv", row.names=FALSE)
 

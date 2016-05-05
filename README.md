@@ -73,11 +73,13 @@ Using these settings, participants will complete blocks of 52 (18\*3) training t
 None.
 
 ## To do
-- Reasonable default parameters must be chosen, e.g., with reference to a specific previous experiment.
+- None
 
 ## Changelog
 ### 0.7.4
-Testing by default includes B-C trials now as well as C-B trials, as bidirectionality here is likely to be important. 
+- Testing by default includes B-C trials now as well as C-B trials, as bidirectionality here is likely to be important. 
+- Updated explanation of task parameters appropriately.
+- Updated default task parameters.
 
 ### 0.7.3
 Trial sequence for testing was incorrectly set to sequential. Changed both training and testing to fullRandom.
